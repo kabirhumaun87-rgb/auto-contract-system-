@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@import url('https://fonts.maateen.me/nikosh/font.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@400;500;600;700&display=swap');
+
+@font-face {
+  font-family: 'Nikosh';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Nikosh'), local('NikoshBAN'),
+       url('https://fonts.maateen.me/nikosh/files/Nikosh.woff2') format('woff2'),
+       url('https://fonts.maateen.me/nikosh/files/Nikosh.woff') format('woff'),
+       url('https://fonts.maateen.me/nikosh/files/Nikosh.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Nikosh';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Nikosh Bold'), local('NikoshBAN Bold'),
+       url('https://fonts.maateen.me/nikosh/files/Nikosh.woff2') format('woff2'),
+       url('https://fonts.maateen.me/nikosh/files/Nikosh.woff') format('woff'),
+       url('https://fonts.maateen.me/nikosh/files/Nikosh.ttf') format('truetype');
+}
+
+.font-nikosh {
+  font-family: 'Nikosh', 'NikoshBAN', 'SolaimanLipi', 'Kalpurush', 'Noto Serif Bengali', serif !important;
+}
+
+[lang="bn"], .bengali-text {
+  font-family: 'Nikosh', 'NikoshBAN', 'SolaimanLipi', 'Kalpurush', 'Noto Serif Bengali', serif !important;
+}

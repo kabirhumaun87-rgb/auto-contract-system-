@@ -1,0 +1,282 @@
+{
+  "document": {
+    "title": "Military Engineer Services (MES) PW-2 Works Contract",
+    "reference_file": "PW-2 Contract 2026–2027(1).pdf",
+    "pages_count": 12,
+    "version": "1.0.0"
+  },
+  "sections": [
+    {
+      "page": 1,
+      "id": "master_input_sheet",
+      "title": "Automatic Contract System Master Input Sheet",
+      "fields": [
+        {"id": "invitation_ref_no", "label": "Invitation Ref No", "type": "string", "example": "GSDCA/XY of 2026-2027/1/E-6", "required": true},
+        {"id": "date", "label": "Date", "type": "date", "example": "10-2026", "required": true},
+        {"id": "project_name", "label": "Project/Programmer Name", "type": "string", "example": "Maint Work", "required": true},
+        {"id": "tender_publication_date", "label": "Tender Publication Date", "type": "string", "example": "10-2026", "required": true},
+        {"id": "tender_last_selling_datetime", "label": "Tender Last Selling Date and Time", "type": "string", "example": "10-2026 at 1400 hrs", "required": true},
+        {"id": "tender_closing_datetime", "label": "Tender Closing Date and Time", "type": "string", "example": "10-2026 at 1200 hrs", "required": true},
+        {"id": "tender_opening_datetime", "label": "Tender Opening Date and Time", "type": "string", "example": "10-2026 at 1230 hrs", "required": true},
+        {"id": "price_of_tender_document", "label": "Price of Tender document (TK)", "type": "decimal", "example": 100.00, "required": true},
+        {"id": "completion_time", "label": "Completion Time", "type": "string", "example": "07 (Seven) days", "required": true},
+        {"id": "name_of_work", "label": "Name Of Work", "type": "text", "example": "Repair/Maint of Internal Decoration Works to Bldg No 04 Office Bldg for 05 RE BN Area at Postogola Cantt.", "required": true},
+        {"id": "auth", "label": "Auth", "type": "text", "example": "Auth: Sta HQ Dhaka Ltr No-23.01.901.661.07. 026. 01. 01. 07. 2026/Board/Q-3 Dt. 01 July 2026 & CMES (Army) Dhaka Ltr No.6005/DCA/South/Part-04/08/E-6 Dt. 20 September 2026", "required": true},
+        {"id": "sub_division", "label": "Sub-Division", "type": "string", "example": "SDO I/C Postogola", "required": true},
+        {"id": "invitation_for_tender_no", "label": "Invitation for Tender No", "type": "string", "example": "Invitation for Tender No: GSDCA/xy of 2026-2027/01/E-6 dt. -10-2026", "required": true},
+        {"id": "issued_on", "label": "Issued on", "type": "string", "example": "Issued on : -10-2026", "required": true},
+        {"id": "code_head", "label": "Code Head", "type": "string", "example": "3258106", "required": true},
+        {"id": "drawing_status", "label": "Drg Attached/Nil", "type": "string", "example": "-Attached-'", "required": true},
+        {"id": "cement_rate_opc", "label": "Cement Rate (Per KG) OPC", "type": "decimal", "example": 12.20, "required": true},
+        {"id": "cement_rate_pcc", "label": "Cement Rate (Per KG) PCC", "type": "decimal", "example": 11.80, "required": true},
+        {"id": "place_of_issue", "label": "Place of Issue", "type": "string", "example": "Contractor Own supply.", "required": true},
+        {"id": "store", "label": "Store", "type": "string", "example": "Any MES store at GE (Army) South / Contractor Own supply.", "required": true}
+      ]
+    },
+    {
+      "page": 2,
+      "id": "forwarding_letter_bn",
+      "title": "Forwarding Letter (সীমিত)",
+      "language": "bn",
+      "fields": [
+        {"id": "bn_office", "label": "দপ্তর", "type": "string", "example": "জিই (আর্মি) সাউথ ঢাকা"},
+        {"id": "bn_cantt", "label": "সেনানিবাস", "type": "string", "example": "ঢাকা সেনানিবাস"},
+        {"id": "bn_tel", "label": "তারআলাপনী ঃ সামরিক", "type": "string", "example": "৪১৪৪"},
+        {"id": "bn_date_kartik", "label": "বাংলা তারিখ", "type": "string", "example": "কার্তিক ১৪৩৩"},
+        {"id": "bn_date_gregorian", "label": "ইংরেজি মাস-সন", "type": "string", "example": "অক্টোবর ২০২৬"},
+        {"id": "bn_letter_ref", "label": "স্মারক নং", "type": "string", "example": "৬০০১/     /ই-৬"},
+        {"id": "bn_signatory_name", "label": "স্বাক্ষরকারী কর্মকর্তা", "type": "string", "example": "আব্দুল্লাহ আল মামুন বিল্লাহ"},
+        {"id": "bn_signatory_rank", "label": "পদবি", "type": "string", "example": "লে. কর্নেল"},
+        {"id": "bn_signatory_role", "label": "পদমর্যাদা", "type": "string", "example": "জিই (আর্মি) সাউথ ঢাকা"}
+      ]
+    },
+    {
+      "page": 3,
+      "id": "ift_form",
+      "title": "Invitation for Tenders (25 Items)",
+      "fields": [
+        {"id": "ift_ministry", "item_no": 1, "label": "Ministry/Division", "example": "Ministry of Defence"},
+        {"id": "ift_agency", "item_no": 2, "label": "Agency", "example": "Military Engineer Services (Army)"},
+        {"id": "ift_procuring_entity_name", "item_no": 3, "label": "Procuring Entity Name", "example": "GE (Army) South, Dhaka"},
+        {"id": "ift_procuring_entity_district", "item_no": 4, "label": "Procuring Entity District", "example": "Dhaka"},
+        {"id": "ift_invitation_for", "item_no": 5, "label": "Invitation for", "example": "Procurement of Works"},
+        {"id": "ift_invitation_ref_no", "item_no": 6, "label": "Invitation Ref No", "example": "GSDCA/XY of 2026-2027/1/E-6"},
+        {"id": "ift_date", "item_no": 7, "label": "Date", "example": "- 10-2026"},
+        {"id": "ift_procurement_method", "item_no": 8, "label": "Procurement Method", "example": "Limited Tendering Method (LTM)"},
+        {"id": "ift_budget_source", "item_no": 9, "label": "Budget and Source of Funds", "example": "Government of Bangladesh"},
+        {"id": "ift_project_code", "item_no": 10, "label": "Project/Programmer Code", "example": "Auth: Sta HQ Dhaka Ltr No-23.01.901.661.07. 026. 01. 01. 07. 2026/Board/Q-3 Dt. 01 July 2026 & CMES (Army) Dhaka Ltr No.6005/DCA/South/Part-04/08/E-6 Dt. 20 September 2026"},
+        {"id": "ift_project_name", "item_no": 11, "label": "Project/Programmer Name", "example": "Maint Work"},
+        {"id": "ift_pub_date", "item_no": 12, "label": "Tender Publication Date", "example": "- 10-2026"},
+        {"id": "ift_last_selling", "item_no": 13, "label": "Tender Last Selling Date and Time", "example": "- 10-2026 at 1400 hrs"},
+        {"id": "ift_closing", "item_no": 14, "label": "Tender Closing Date and Time", "example": "- 10-2026 at 1200 hrs"},
+        {"id": "ift_opening", "item_no": 15, "label": "Tender Opening Date and Time", "example": "- 10-2026 at 1230 hrs"},
+        {"id": "ift_office_selling", "item_no": 16, "label": "Selling Tender Document Office", "example": "GE (Army) South, Dhaka"},
+        {"id": "ift_office_receiving", "item_no": 16, "label": "Receiving Tender Document Office", "example": "GE (Army) South, Dhaka"},
+        {"id": "ift_office_opening", "item_no": 16, "label": "Opening Tender Document Office", "example": "GE (Army) South, Dhaka"},
+        {"id": "ift_eligibility", "item_no": 17, "label": "Eligibility of Tender", "example": "MES Enlisted Contractors Only"},
+        {"id": "ift_brief_description", "item_no": 18, "label": "Brief Description of Works", "example": "Repair/Maint of Internal Decoration Works to Bldg No 04 Office Bldg for 05 RE BN Area at Postogola Cantt."},
+        {"id": "ift_tender_price", "item_no": 19, "label": "Price of Tender document (TK)", "example": "100.00"},
+        {"id": "ift_lot_no", "item_no": 20, "label": "Lot No", "example": "-"},
+        {"id": "ift_lot_id", "item_no": 20, "label": "Identification of Lot", "example": "-"},
+        {"id": "ift_location", "item_no": 20, "label": "Location", "example": "Dhaka"},
+        {"id": "ift_tender_security", "item_no": 20, "label": "Tender Security Amount (TK)", "example": "-"},
+        {"id": "ift_completion_time", "item_no": 20, "label": "Completion Time", "example": "07 (Seven) days"},
+        {"id": "ift_inviting_name", "item_no": 21, "label": "Name of Official Inviting Tender", "example": "GE (Army) South Dhaka"},
+        {"id": "ift_inviting_designation", "item_no": 22, "label": "Designation of Official Inviting Tender", "example": "Lt Col"},
+        {"id": "ift_inviting_address", "item_no": 23, "label": "Address of Official Inviting Tender", "example": "GE (Army) South, Dhaka Cantt"},
+        {"id": "ift_inviting_contact", "item_no": 24, "label": "Contact Details of Official Inviting Tender", "example": "Tel No : 9834144"},
+        {"id": "ift_right_reserved", "item_no": 25, "label": "Right to accept/reject clause", "example": "The Procuring entity reserves the right to accept or reject all tenders"}
+      ]
+    },
+    {
+      "page": 4,
+      "id": "pw2_cover",
+      "title": "Standard Tender Document PW-2 Cover Page",
+      "fields": [
+        {"id": "ca_no", "label": "CA NO.", "example": "GSDCA/     OF 2025-2026"},
+        {"id": "issuing_office_heading", "label": "Office Header", "example": "GE (ARMY) SOUTH\nDHAKA CANTONMENT, DHAKA - 1206"},
+        {"id": "work_title", "label": "Name of Work", "example": "Repair/Maint of Internal Decoration Works to Bldg No 04 Office Bldg for 05 RE BN Area at Postogola Cantt."},
+        {"id": "auth_header", "label": "Authority", "example": "Auth: Sta HQ Dhaka Ltr No-23.01.901.661.07. 026. 01. 01. 07. 2026/Board/Q-3 Dt. 01 July 2026 & CMES (Army) Dhaka Ltr No.6005/DCA/South/Part-04/08/E-6 Dt. 20 September 2026"},
+        {"id": "issued_on_date", "label": "Issued on", "example": "-10-2026"},
+        {"id": "tender_package_no", "label": "Tender Package No", "example": "NA"},
+        {"id": "code_head", "label": "Code Head", "example": "3258106"}
+      ]
+    },
+    {
+      "page": 5,
+      "id": "tds_section_2",
+      "title": "Section 2. Tender Data Sheet",
+      "fields": [
+        {"id": "itt_1_1_procuring_entity", "clause": "ITT 1.1", "label": "Procuring Entity Representation", "example": "GE (Army) south Dhaka represented by SDO I/C Postogola"},
+        {"id": "itt_3_1_eligibility", "clause": "ITT 3.1", "label": "Enlistment Category and Method", "example": "i) Only MES Enlisted Contractor of the Categories ' D' & 'E' are eligible.\nii) Non-enlisted in MES but enlisted in other Dept. having Security clearance from DGFI are also eligible.\nOption : Limited Tendering method (LTM)"},
+        {"id": "itt_4_1_attention", "clause": "ITT 4.1", "label": "Clarification Contact Person", "example": "Abdullah Al Mamun Billah"},
+        {"id": "itt_4_1_address", "clause": "ITT 4.1", "label": "Clarification Address", "example": "GE (Army) South Dhaka, Dhaka Cantt.Dhaka-1206 ."},
+        {"id": "itt_4_1_telephone", "clause": "ITT 4.1", "label": "Clarification Telephone", "example": "8754144"},
+        {"id": "itt_7_1_similar_works", "clause": "ITT 7.1", "label": "Satisfactory completion of similar works", "example": "N.A."},
+        {"id": "itt_8_1_a_turnover", "clause": "ITT 8.1(a)", "label": "Required average annual turnover", "example": "Tk 6.00 lac over the last 05 (Five) years.: NA"},
+        {"id": "itt_8_1_b_liquid_assets", "clause": "ITT 8.1(b)", "label": "Minimum liquid assets / working capital", "example": "Tk 2.00 lac. NA"}
+      ]
+    },
+    {
+      "page": 6,
+      "id": "pcc_section_4",
+      "title": "Section 4. Particular Conditions of Contract",
+      "fields": [
+        {"id": "gcc_1_1_d_contractor_name", "clause": "GCC 1.1(d)", "label": "The Contractor Name of Firm", "example": "..................................................................................."},
+        {"id": "gcc_1_1_t_procuring_entity", "clause": "GCC 1.1(t)", "label": "The Procuring Entity & Authorized Rep", "example": "GE (Army) Dhaka Cantt., Dhaka Cantt.Dhaka-1206"},
+        {"id": "gcc_1_1_u_project_manager", "clause": "GCC 1.1(u)", "label": "The Project Manager", "example": "SDO I/C Postogola, GE (Army) South, Dhaka Cantonment, Dhaka-1206"},
+        {"id": "gcc_1_1_v_work_consists", "clause": "GCC 1.1(v)", "label": "The Work Consists of", "example": "Repair/Maint of Internal Decoration Works to Bldg No 04 Office Bldg for 05 RE BN Area at Postogola Cantt."},
+        {"id": "gcc_1_1_aa_site_location", "clause": "GCC 1.1(aa)", "label": "The Site Location", "example": "Repair/Maint of Internal Decoration Works to Bldg No 04 Office Bldg for 05 RE BN Area at Postogola Cantt."},
+        {"id": "gcc_3_1_j_other_docs", "clause": "GCC 3.1(j)", "label": "Other documents forming part of Contract", "example": "NA"},
+        {"id": "gcc_5_1_site_possession", "clause": "GCC 5.1", "label": "Possession of the Site", "example": "Within 03 days after signing the Contract Agreement."},
+        {"id": "gcc_10_1_start_date", "clause": "GCC 10.1", "label": "Start Date Commencement", "example": "commencement shown in 1st written Work Orders (WO) by the Project Manager i.e. SDO."},
+        {"id": "gcc_11_1_completion_date", "clause": "GCC 11.1", "label": "Intended Completion Date", "example": "15 (Fifteen) days"},
+        {"id": "gcc_12_1_programme_submission", "clause": "GCC 12.1", "label": "Contractor Programme for Works", "example": "within 03 days of signing the Contract. NA"},
+        {"id": "gcc_19_2_defects_liability", "clause": "GCC 19.2", "label": "Defects Liability Period", "example": "03 (Three) month."},
+        {"id": "pcc_special_note", "label": "Special Note", "example": "(1) Recovery of VAT, Income tax and other charges will be applicable as per latest Government order."}
+      ]
+    },
+    {
+      "page": 7,
+      "id": "form_pw2_1",
+      "title": "Tender Submission Letter (Form PW2-1)",
+      "fields": [
+        {"id": "submission_recipient", "label": "To Addressee", "example": "GE (Army) south, Dhaka Cantt, Dhaka-1206"},
+        {"id": "submission_date", "label": "Date", "example": ""},
+        {"id": "submission_ift_no", "label": "Invitation for Tender No", "example": "GSDCA/xy of 2026-2027/01/E-6 dt. -10-2026"},
+        {"id": "submission_package_no", "label": "Tender Package No", "example": ""},
+        {"id": "submission_lot_no", "label": "Lot No", "example": ""},
+        {"id": "submission_tender_price_figures", "label": "The Tender Price (in figures)", "type": "calculated_currency", "example": ""},
+        {"id": "submission_tender_price_words", "label": "The Tender Price (in words)", "type": "calculated_words", "example": ""},
+        {"id": "signatory_capacity", "label": "In the capacity of", "example": "N.A"},
+        {"id": "signatory_duly_authorised", "label": "Authorised Signatory", "example": "Duly authorised to sign the Tender for and on behalf of the Tenderer"}
+      ]
+    },
+    {
+      "page": 8,
+      "id": "boq_guidance",
+      "title": "Section 6. Bill of Quantities - Guidance Notes",
+      "fields": [
+        {"id": "boq_guidance_name_of_work", "label": "Name of Works", "example": "Repair/Maint of Internal Decoration Works to Bldg No 04 Office Bldg for 05 RE BN Area at Postogola Cantt."},
+        {"id": "boq_corrections_declaration", "label": "Mandatory Correction Statement", "example": "This Bill of Quantities contains [state number] corrections duly initialled and signed by the authorised person of the Tenderer"}
+      ]
+    },
+    {
+      "page": 9,
+      "id": "boq_schedule",
+      "title": "Section 6. Bill of Quantities & Technical Specification Schedule",
+      "sample_items": [
+        {
+          "sl": 1,
+          "spec_clause": "",
+          "description": "Supply and fixing of Cup board 625 mm depth any colour made of both side melamine coated / laminated board 19mm thick including 2xdrawer, shelf, 3mm thick plastic board liner, steel channel for drawer, steel lama hinges, steel handle, steel lock, etc. complete (OTOBI / NAVANA / PARTEX BRAND) as spd after Demolition Done by DEL.",
+          "unit": "Sqm",
+          "quantity": 5.00
+        },
+        {
+          "sl": 2,
+          "spec_clause": "",
+          "description": "Supply and fixing of Plastic Cat Door Door incl. hanging with chowkat and SS mongaries after Taking out old cat Door remove to Store Done by DEL.",
+          "unit": "Sqm",
+          "quantity": 0.45
+        },
+        {
+          "sl": 3,
+          "spec_clause": "",
+          "description": "S/F of Chowkat for doors gates including holdfast and fixed in position as specified (Silkorai Ctg) as spd after taking down & remove to store done by DEL.",
+          "unit": "Cum",
+          "quantity": 0.043
+        },
+        {
+          "sl": 4,
+          "spec_clause": "",
+          "description": "S/F of 36mm thick flush door shutter both side Chapalish veeneered excluding mongeries after taking down & remove to store done by DEL.",
+          "unit": "Sqm",
+          "quantity": 2.252
+        },
+        {
+          "sl": 5,
+          "spec_clause": "",
+          "description": "S/F SS mongeries for single leaf door as spd.",
+          "unit": "Each",
+          "quantity": 1.000
+        },
+        {
+          "sl": 6,
+          "spec_clause": "",
+          "description": "S/F 300mm long 15mm dia SS sliding & locking bolt as spd.",
+          "unit": "Each",
+          "quantity": 1.000
+        },
+        {
+          "sl": 7,
+          "spec_clause": "",
+          "description": "Spirit polishing to new Wood Surface complete rate.",
+          "unit": "Sqm",
+          "quantity": 5.040
+        }
+      ]
+    },
+    {
+      "page": 10,
+      "id": "general_specifications",
+      "title": "Section 7. General Specifications",
+      "clauses_count": 16,
+      "store_issue_table": {
+        "item": "Cement Portland Composit paper bag rate inclusive cost of bags.",
+        "unit": "Kg",
+        "rate_opc": 12.20,
+        "rate_pcc": 11.80,
+        "place": "Contractor Own supply."
+      },
+      "water_charges_fixed_rate": "31 paisa for every 100 Taka",
+      "measurement_book_code": "BAFW-2261"
+    },
+    {
+      "page": 11,
+      "id": "particular_specifications",
+      "title": "Section 8. Particular Specifications",
+      "reference_clause": "As per Section 6, Bill of Quantities"
+    },
+    {
+      "page": 12,
+      "id": "drawings",
+      "title": "Section 9. Drawings",
+      "content": "Nil"
+    }
+  ],
+  "discrepancies": [
+    {
+      "id": "DISC_CA_YEAR",
+      "title": "Fiscal Year / CA Number Year Inconsistency",
+      "location_1": "Pages 1 & 3: 2026-2027",
+      "location_2": "Pages 4-12 Headers: 2025-2026",
+      "severity": "WARNING",
+      "action": "User must select target Fiscal Year; system updates all 12 pages uniformly."
+    },
+    {
+      "id": "DISC_COMPLETION_TIME",
+      "title": "Completion Time Conflict",
+      "location_1": "Page 1 & Page 3 (IFT 20): 07 (Seven) days",
+      "location_2": "Page 6 (GCC 11.1): 15 (Fifteen) days",
+      "severity": "WARNING",
+      "action": "System prompts user to confirm contract duration before document generation."
+    },
+    {
+      "id": "DISC_DRAWING_STATUS",
+      "title": "Drawing Status Conflict",
+      "location_1": "Page 1: -Attached-'",
+      "location_2": "Page 12: Nil",
+      "severity": "WARNING",
+      "action": "Ensure Section 9 and Page 1 match user's actual drawing submission status."
+    },
+    {
+      "id": "DISC_PHONE_NUMBERS",
+      "title": "Office Telephone Discrepancy",
+      "location_1": "Page 2 & 3: Tel : Mil : 4144",
+      "location_2": "Page 3 (Item 24): Tel No : 9834144, Page 5 (ITT 4.1): 8754144",
+      "severity": "INFO",
+      "action": "Allow separate entries for Military Exchange Tel vs Direct Civilian Landline."
+    }
+  ]
+}

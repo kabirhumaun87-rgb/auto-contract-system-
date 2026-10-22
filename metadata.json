@@ -1,0 +1,6 @@
+{
+  "name": "Auto Contract System",
+  "description": "Automated Military Engineer Services (MES) PW-2 Works Contract and Tender Document Generation System",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
